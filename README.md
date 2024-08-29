@@ -24,3 +24,9 @@ The "infinity_morpher" function requires the following arguments:
 "weight_factor" | integer or float | no limit | factor, by which the balance of black and white pixels affects the image genreation. -2 -> no effect, 0 -> minimal impact, >0 -> more impact, < -2 reverse impact may lead to all pixels turning black or white
 
 "decay_factor" | integer or float | no limit | factor, by which the likelyness of a pixel to change its state is increased with increasing age (time since last change of state). Small decay_factor results in bigger features in the genreated images 0 -> no change
+
+This could for e.g. look like this:
+
+    from infinity_morpher import infinity_morpher
+    
+    infinity_morpher("Mona_Lisa.jpg", 100, 4, 80, 10, 1, 1)
