@@ -31,4 +31,4 @@ This could for e.g. look like this:
     
     infinity_morpher("Mona_Lisa.jpg", 100, 4, 80, 10, 1, 1)
 
-You can also run run_im.py 
+You can also run _run_im.py_ 
